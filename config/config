@@ -1,1 +1,8 @@
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
+
+Raw_Data = 'data/raw/owid-covid-data.csv'
+Processed_Data = 'data/processed/cleaned_covid_data.csv'
+DB_URI = os.getenv("DB_URI")
