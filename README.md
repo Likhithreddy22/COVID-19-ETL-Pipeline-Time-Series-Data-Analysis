@@ -28,4 +28,3 @@ The pipeline ingests raw CSV data, performs data cleaning and feature engineerin
 4. Perform SQL analysis
 5. Generate insights and visualizations
 
-## Project Structure
